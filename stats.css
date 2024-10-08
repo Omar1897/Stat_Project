@@ -1,0 +1,57 @@
+
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.stats .container{
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+}
+.container .text{
+    color: white;
+    padding-left: 80px;
+    padding-top: 70px;
+    font-family: sans-serif;
+}
+.container .text p{
+color: hsla(0, 0%, 100%, 0.75);
+font-size: 15px;
+}
+.container .followers{
+display: flex;
+justify-content: space-between;
+color: white;
+padding-top: 50px;
+}
+.container .followers .fol{
+    right: 10px;
+    padding-right: 36px;
+}
+.container .followers .fol h3{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container .followers .fol span{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.stats .container .text .ins{
+    color: blueviolet;
+}
+.container .image{
+    position: relative;
+}
+.container .image::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: hsl(277deg 64% 61% / 50%);
+    position: absolute;
+}
+
